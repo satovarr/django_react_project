@@ -16,7 +16,7 @@ export default function TasksList() {
 
   return (
     <div>{tasks.map((task => {
-        return <TaskCard task={task} key={task.id} />
+        return <TaskCard task={task} key={task.id}  />
 
     }))}</div>
   )
